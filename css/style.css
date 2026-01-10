@@ -1,5 +1,5 @@
 :root {
-  --primary: lightblue;
+  --primary: #1fb0e0;
   --bg: #fff;
 }
 
@@ -16,6 +16,7 @@ body {
   font-family: "Google Sans", sans-serif;
   background-color: var(--bg);
   color: black;
+  min-height: 2000px;
 }
 
 /* Navbar */
@@ -24,7 +25,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1.4rem 7%;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid #1e82a3;
   position: fixed;
   top: 0;
   left: 0;
@@ -37,6 +39,11 @@ body {
   width: 100px;
   object-fit: contain;
 } */
+.navbar .navbar-nav {
+  display: flex;
+  margin-left: auto;
+  position: relative;
+}
 
 .navbar .navbar-nav a {
   color: black;
@@ -75,11 +82,57 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
   background-image: url(../assets/images/kanopii.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
+.hero::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 3%,
+    rgba(255, 255, 255, 0.9),
+    25%
+  );
+}
+.hero .content {
+  text-align: center;
+  max-width: 60rem;
+  padding: 1.5rem 7%;
+}
+
+.hero .content h1 {
+  font-size: 5em;
+  color: #0a0a0a;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+}
+
+.hero .content p {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  line-height: 1.4;
+  font-weight: 100;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+}
+
+.hero .content .cta {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 4rem;
+  font-size: 1.4rem;
+  color: #111010;
+  background-color: var(--primary);
+  font-weight: 600;
+}
 /* media queries */
 /* laptop */
 @media (max-width: 1366px) {
@@ -105,6 +158,8 @@ body {
     width: 30rem;
     height: 100vh;
     transition: 0.3s;
+    margin-left: 0;
+    flex-direction: column;
   }
 
   .navbar .navbar-nav.active {
