@@ -35,7 +35,7 @@ body {
   z-index: 9999;
 }
 
-.navbar img{
+.navbar img {
   width: 200px;
   object-fit: contain;
 }
@@ -122,7 +122,7 @@ body {
   margin-top: 1rem;
   line-height: 1.4;
   font-weight: 100;
-  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);s
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
 }
 
 .hero .content .cta {
@@ -142,14 +142,14 @@ body {
   padding: 7rem 7% 1.4rem;
 }
 
-.about h2{
+.about h2 {
   font-size: 2.6rem;
   text-align: center;
   margin-bottom: 3rem;
   font-weight: 600;
 }
 
-.about h2 span{
+.about h2 span {
   color: var(--primary);
 }
 
@@ -165,7 +165,7 @@ body {
 
 .about .row .content {
   flex: 1 1 35rem;
-  padding:1rem ;
+  padding: 1rem;
 }
 
 .about .row .content h3 {
@@ -179,8 +179,6 @@ body {
   font-weight: 100;
   line-height: 1.6;
 }
-
-
 
 /* media queries */
 /* laptop */
@@ -231,10 +229,10 @@ body {
   transform: scaleX(0.2);
 }
 
-.about .row{
+.about .row {
   flex-wrap: wrap;
 }
-.about .row .about-img img{
+.about .row .about-img img {
   height: 24rem;
   object-fit: cover;
   object-position: center;
