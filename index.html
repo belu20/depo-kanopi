@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto+Slab:wght@100..900&display=swap"
       rel="stylesheet"
     />
     <!-- feather icon -->
@@ -33,6 +33,16 @@
         <a href="#kontak">Kontak</a>
       </div>
 
+      <!-- button konsultasi -->
+      <div id="btn-konsultasi" class="btn-konsultasi">
+        <a
+          href="https://api.whatsapp.com/send?phone=6285793601471&text=Halo%20"
+          id="konsultasi"
+          >Konsultasi Sekarang</a
+        >
+      </div>
+      <!-- end konsultasi -->
+
       <div class="navbar-extra">
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
@@ -42,11 +52,8 @@
     <!-- hero section start -->
     <section class="hero" id="home">
       <main class="content">
-        <h1>Lorem ipsum dolor sit</h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, iure!
-          Saepe culpa necessitatibus dolore expedita, libero
-        </p>
+        <h1><span>DEPO</span>CANOPY</h1>
+        <p>Spesialist Atap Tenda Membrane, Kanopi Kain, dan Awning Gulung</p>
         <a
           href="https://api.whatsapp.com/send?phone=6285793601471&text=Halo%20"
           class="cta"
@@ -62,7 +69,7 @@
 
       <div class="row">
         <div class="about-img">
-          <img src="./assets/images/1.jpg" alt="Tentang Kami" />
+          <img src="./assets/images/kanopi-kain-2.jpeg" alt="Tentang Kami" />
         </div>
         <div class="content">
           <h3>Kenapa Memilih Kami</h3>
@@ -82,11 +89,27 @@
       </div>
     </section>
     <!-- end about section -->
-    <!-- Daftar Harga -->
+    <!-- Daftar Album -->
     <section id="harga" class="harga">
-      <h2>TANYA JAWAB</h2>
-      <h3>Beberapa Pertanyaan yang sering diajukan</h3>
+      <div class="gallery-container">
+        <h1>Project Kami</h1>
+
+        <div class="gallery-grid" id="gallery">
+          <!-- Foto akan diisi oleh JavaScript -->
+        </div>
+      </div>
     </section>
+
+    <!-- Modal Lightbox -->
+    <div id="modal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <button class="nav-btn prev" onclick="changeImage(-1)">&#10094;</button>
+      <div class="modal-content">
+        <img id="modalImg" class="modal-image" src="" alt="" />
+        <div class="modal-caption" id="caption"></div>
+      </div>
+      <button class="nav-btn next" onclick="changeImage(1)">&#10095;</button>
+    </div>
 
     <!-- end Daftar Harga -->
     <!-- feather icon -->
