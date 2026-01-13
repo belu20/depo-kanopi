@@ -16,7 +16,6 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: var(--bg);
   color: black;
-  min-height: 3000px;
 }
 
 /* Navbar */
@@ -385,6 +384,22 @@ h1 {
   right: 20px;
 }
 
+/* kontak */
+.kontak .row {
+  display: flex;
+  justify-content: center;
+  background-color: #173e4b;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.kontak .map {
+  width: 100%;
+  max-width: 1000px;
+  height: 400px;
+  border: 0;
+  border-radius: 10px;
+}
 /* media queries */
 
 /* laptop */
