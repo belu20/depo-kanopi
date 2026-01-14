@@ -16,6 +16,7 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: var(--bg);
   color: black;
+  min-height: 5000px;
 }
 
 /* Navbar */
@@ -387,20 +388,101 @@ h1 {
 /* kontak */
 .kontak .row {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
   background-color: #173e4b;
   margin-top: 2rem;
-  flex-wrap: wrap;
+  padding: 2rem;
+  align-items: flex-start;
 }
 
+/* Map Container */
 .kontak .row .map {
-  flex: 1 1 45rem;
+  flex: 1 1 20rem;
   width: 100%;
-  max-width: 1000px;
-  height: 400px;
-  border: 0;
-  border-radius: 10px;
+  height: 450px;
   object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Alamat/Contact Info */
+.kontak .row .alamat {
+  flex: 1 1 35rem;
+  padding: 2rem 3rem;
+  color: #ffffff;
+  font-family: "Roboto Slab", serif;
+  line-height: 1.8;
+}
+
+.kontak .row .alamat h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  border-bottom: 3px solid #4a9eff;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.kontak .row .alamat h3 {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #e0f7ff;
+}
+
+.kontak .row .alamat p {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+  color: #e8e8e8;
+  line-height: 1.8;
+}
+
+.kontak .row .alamat a:hover {
+  color: #78b8ff;
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 968px) {
+  .kontak .row {
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .kontak .row .alamat {
+    padding: 1.5rem 0;
+  }
+
+  .kontak .row .alamat h2 {
+    font-size: 2rem;
+  }
+
+  .kontak .row .alamat h3 {
+    font-size: 1.5rem;
+  }
+
+  .kontak .row .map {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .kontak .row .map {
+    height: 300px;
+    border-radius: 8px;
+  }
+
+  .kontak .row .alamat h2 {
+    font-size: 1.8rem;
+  }
+
+  .kontak .row .alamat p {
+    font-size: 1rem;
+  }
 }
 /* media queries */
 
@@ -479,6 +561,9 @@ h1 {
 .close {
   right: 20px;
   font-size: 30px;
+}
+.kontak .row {
+  flex-wrap: wrap;
 }
 /* mobile */
 
