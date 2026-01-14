@@ -16,7 +16,6 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: var(--bg);
   color: black;
-  min-height: 5000px;
 }
 
 /* Navbar */
@@ -173,7 +172,8 @@ body {
 }
 /* about */
 .about,
-.harga {
+.harga,
+.kontak {
   padding: 7rem 7% 1.4rem;
 }
 
@@ -386,11 +386,16 @@ h1 {
 }
 
 /* kontak */
+.kontak {
+  background-color: #173e4b;
+  width: 100%;
+  padding: 3rem 0;
+}
+
 .kontak .row {
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
-  background-color: #173e4b;
   margin-top: 2rem;
   padding: 2rem;
   align-items: flex-start;
@@ -443,6 +448,15 @@ h1 {
 .kontak .row .alamat a:hover {
   color: #78b8ff;
   text-decoration: underline;
+}
+
+/* footer */
+
+footer {
+  background-color: var(--primary);
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 3rem;
 }
 
 /* Responsive Design */
