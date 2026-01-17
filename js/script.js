@@ -27,12 +27,12 @@ const photos = [
   },
   { src: "./assets/images/kanopi-kain.jpeg", caption: "Kanopi Kain" },
   { src: "./assets/images/canopi-3.jpeg", caption: "Kanopi Membrane" },
-  { src: "./assets/images/canopi-4.jpeg", caption: "Kanopi Kain" },
+  { src: "./assets/images/canopi-4.jpeg", caption: "Awning Gulung" },
   { src: "./assets/images/canopi-5.jpeg", caption: "Kanopi Kain" },
   { src: "./assets/images/canopi4.jpeg", caption: "Kanopi Membrane" },
   { src: "./assets/images/canopi-6.jpeg", caption: "Kanopi Kain" },
-  { src: "./assets/images/canopi-1.jpeg", caption: "Kanopi Permanen" },
-  { src: "./assets/images/canopi-2.jpeg", caption: "Kanopi Permanen" },
+  { src: "./assets/images/canopi-1.jpeg", caption: "Kanopi Kain" },
+  { src: "./assets/images/canopi-2.jpeg", caption: "Kanopi Kain" },
 ];
 
 let currentIndex = 0;
