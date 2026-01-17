@@ -25,7 +25,7 @@ const photos = [
     src: "./assets/images/tenda-membran.jpeg",
     caption: "Kanopi Membrane",
   },
-  { src: "./assets/images/kanopi-kain.jpeg", caption: "Kanopi Kain" },
+  { src: "./assets/images/kanopi-kain.jpeg", caption: "Awning Gulung" },
   { src: "./assets/images/canopi-3.jpeg", caption: "Kanopi Membrane" },
   { src: "./assets/images/canopi-4.jpeg", caption: "Awning Gulung" },
   { src: "./assets/images/canopi-5.jpeg", caption: "Kanopi Kain" },
