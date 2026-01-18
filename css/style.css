@@ -441,7 +441,16 @@ h1 {
 .next {
   right: 20px;
 }
-
+/* layanan kami */
+.layanan-kami .row {
+  background-color: #173e4b;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  align-items: flex-start;
+}
 /* kontak */
 
 .kontak .row {
