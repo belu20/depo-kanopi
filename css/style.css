@@ -639,6 +639,9 @@ html {
   .kontak .row {
     flex-wrap: wrap;
   }
+  .kontak .row p {
+    color: #fff;
+  }
   .keunggulan {
     padding: 3rem 1.5rem;
   }
