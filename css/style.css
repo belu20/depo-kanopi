@@ -510,18 +510,10 @@ h1 {
   display: inline-block;
 }
 
-.kontak .row .alamat h3 {
-  font-size: 1.8rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  font-weight: 600;
-  color: #e0f7ff;
-}
-
 .kontak .row .alamat p {
   font-size: 1.1rem;
   margin-bottom: 0.8rem;
-  color: #e8e8e8;
+  color: var(--bg);
   line-height: 1.8;
 }
 
