@@ -515,6 +515,7 @@ h1 {
   margin-bottom: 0.8rem;
   color: var(--bg);
   line-height: 1.8;
+  text-decoration: none;
 }
 
 .kontak .row .alamat a:hover {
@@ -639,8 +640,9 @@ html {
   .kontak .row {
     flex-wrap: wrap;
   }
-  .kontak .row p {
+  .kontak .row .alamat p {
     color: #fff;
+    text-decoration: none;
   }
   .keunggulan {
     padding: 3rem 1.5rem;
