@@ -182,7 +182,8 @@ body {
 
 .about h2,
 .harga h2,
-.keunggulan h2 {
+.keunggulan h2,
+.layanan-kami h2 {
   font-size: 2.6rem;
   text-align: center;
   margin-bottom: 2rem;
@@ -191,7 +192,8 @@ body {
 
 .about h2 span,
 .harga h2 span,
-.keunggulan h2 span {
+.keunggulan h2 span,
+.layanan-kami h2 span {
   color: var(--primary);
 }
 
@@ -219,6 +221,7 @@ body {
   padding: 2rem;
   align-items: flex-start;
   gap: 2rem;
+  border-radius: 10px;
 }
 
 .about .row .content p {
@@ -444,13 +447,26 @@ h1 {
   right: 20px;
 }
 /* layanan kami */
-.layanan-kami .row {
-  background-color: #173e4b;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 3rem;
+.layanan-kami {
   padding: 2rem;
-  align-items: flex-start;
+  background-color: #173e4b;
+}
+.layanan-kami .badge-container {
+  text-align: center;
+  color: var(--bg);
+}
+.layanan-kami .badge-container .badge {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  margin: 5px;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+.layanan-kami .badge-container .badge:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
 }
 /* kontak */
 
@@ -462,6 +478,7 @@ h1 {
   margin-top: 2rem;
   padding: 2rem;
   align-items: flex-start;
+  border-radius: 10px;
 }
 
 /* Map Container */
