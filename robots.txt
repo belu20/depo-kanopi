@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+# Block system & private folders
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Prevent duplicate URLs (parameter)
+Disallow: /*?*
+
+# Allow important assets
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.webp$
+Allow: /*.svg$
+Allow: /*.woff$
+Allow: /*.woff2$
+
+# Sitemap
+Sitemap: https://depo-canopy.com/sitemap.xml
