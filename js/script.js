@@ -97,3 +97,25 @@ document.addEventListener("keydown", function (event) {
     if (event.key === "Escape") closeModal();
   }
 });
+
+// function list dropdown
+const questions = document.querySelectorAll(".faq-question");
+
+questions.forEach((question) => {
+  question.addEventListener("click", () => {
+    const answer = question.nextElementSibling;
+    const isActive = question.classList.contains("active");
+
+    // Close all other answers
+    questions.forEach((q) => {
+      q.classList.remove("active");
+      q.nextElementSibling.classList.remove("active");
+    });
+
+    // Toggle current answer
+    if (!isActive) {
+      question.classList.add("active");
+      answer.classList.add("active");
+    }
+  });
+});
