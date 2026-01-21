@@ -1,3 +1,7 @@
+// load
+window.addEventListener("load", () => {
+  window.scrollTo(0, 0);
+});
 //aktifkan toggle
 const navBar = document.querySelector(".navbar-nav");
 
