@@ -107,14 +107,19 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-image: url(../assets/images/kanopi-kain-2.jpeg);
+  background-image: url(../assets/images/canopi4.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
 }
-
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: 1;
+}
 .hero::after {
   content: "";
   display: block;
@@ -128,8 +133,11 @@ body {
     rgba(255, 255, 255, 0.9),
     80%
   );
+  z-index: 1;
 }
 .hero .content {
+  position: relative;
+  z-index: 2;
   text-align: center;
   max-width: 60rem;
   padding: 1.5rem 7%;
@@ -152,7 +160,6 @@ body {
   margin-top: 1rem;
   line-height: 1.4;
   font-weight: 100;
-  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
   color: #ffffff;
 }
 
@@ -165,9 +172,25 @@ body {
   background-color: var(--primary);
   font-weight: 600;
   border-radius: 0.5rem;
-  box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.9);
+  box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.7);
 }
 .hero .content .cta:hover {
+  background-position: right center;
+  transform: scale(1.05);
+}
+.hero .content .project {
+  margin-top: 1rem;
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem 3rem;
+  font-size: 1.4rem;
+  color: #ffffff;
+  background-color: var(--primary);
+  font-weight: 600;
+  border-radius: 0.7rem;
+  box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.7);
+}
+.hero .content .project:hover {
   background-position: right center;
   transform: scale(1.05);
 }
