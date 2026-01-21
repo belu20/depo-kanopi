@@ -17,23 +17,23 @@ document.addEventListener("click", function (e) {
 
 // Data foto (ganti dengan URL foto Anda)
 const photos = [
-  { src: "./assets/images/kanopi-kain-1.jpeg", caption: "Kanopi Kain" },
-  { src: "./assets/images/tenda-membran-3.jpeg", caption: "Tenda Membrane" },
-  { src: "./assets/images/kanopi-kain-2.jpeg", caption: "Tenda Kain" },
-  { src: "./assets/images/tenda-membrane.jpeg", caption: "Kanopi Membrane" },
+  { src: "assets/images/kanopi-kain-1.jpeg", caption: "Kanopi Kain" },
+  { src: "assets/images/tenda-membran-3.jpeg", caption: "Tenda Membrane" },
+  { src: "assets/images/kanopi-kain-2.jpeg", caption: "Tenda Kain" },
+  { src: "assets/images/tenda-membrane.jpeg", caption: "Kanopi Membrane" },
   {
-    src: "./assets/images/tenda-membran.jpeg",
+    src: "assets/images/tenda-membran.jpeg",
     caption: "Kanopi Membrane",
   },
-  { src: "./assets/images/kanopi-kain.jpeg", caption: "Awning" },
-  { src: "./assets/images/canopi-3.jpeg", caption: "Kanopi Membrane" },
-  { src: "./assets/images/canopi-4.jpeg", caption: "Awning" },
-  { src: "./assets/images/canopi-5.jpeg", caption: "Kanopi Kain" },
-  { src: "./assets/images/canopi4.jpeg", caption: "Kanopi Membrane" },
-  { src: "./assets/images/canopi-6.jpeg", caption: "Kanopi Kain" },
-  { src: "./assets/images/canopi-1.jpeg", caption: "Kanopi Kain" },
-  { src: "./assets/images/canopi-2.jpeg", caption: "Kanopi Kain" },
-  { src: "./assets/images/awning-gulung.jpeg", caption: "Awning" },
+  { src: "assets/images/kanopi-kain.jpeg", caption: "Awning" },
+  { src: "assets/images/canopi-3.jpeg", caption: "Kanopi Membrane" },
+  { src: "assets/images/canopi-4.jpeg", caption: "Awning" },
+  { src: "assets/images/canopi-5.jpeg", caption: "Kanopi Kain" },
+  { src: "assets/images/canopi4.jpeg", caption: "Kanopi Membrane" },
+  { src: "assets/images/canopi-6.jpeg", caption: "Kanopi Kain" },
+  { src: "assets/images/canopi-1.jpeg", caption: "Kanopi Kain" },
+  { src: "assets/images/canopi-2.jpeg", caption: "Kanopi Kain" },
+  { src: "assets/images/awning-gulung.jpeg", caption: "Awning" },
 ];
 
 let currentIndex = 0;
