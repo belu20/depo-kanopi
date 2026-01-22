@@ -24,4 +24,4 @@ Allow: /*.woff$
 Allow: /*.woff2$
 
 # Sitemap
-Sitemap: https://depo-canopy.com/sitemap.xml
+Sitemap: https://infocanopydepo.com/sitemap.xml
