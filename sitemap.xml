@@ -5,7 +5,7 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://infodepocanopy.com/</loc>
+    <loc>https://infocanopydepo.com/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
@@ -13,31 +13,31 @@
 
   <!-- Section Anchor (SEO tetap dihitung Google) -->
   <url>
-    <loc>https://infodepocanopy.com/#about</loc>
+    <loc>https://infocanopydepo.com/#about</loc>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://infodepocanopy.com/#layanan-kami</loc>
+    <loc>https://infocanopydepo.com/#layanan-kami</loc>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://infodepocanopy.com/#tanya</loc>
+    <loc>https://infocanopydepo.com/#tanya</loc>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>
   </url>
 
   <url>
-    <loc>https://infodepocanopy.com/#harga</loc>
+    <loc>https://infocanopydepo.com/#harga</loc>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>
   </url>
 
   <url>
-    <loc>https://infodepocanopy.com/#kontak</loc>
+    <loc>https://infocanopydepo.com/#kontak</loc>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
