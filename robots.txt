@@ -1,13 +1,10 @@
 User-agent: *
 Allow: /
 
-# Block system & private folders
+# Block system folders
 Disallow: /cgi-bin/
 Disallow: /tmp/
 Disallow: /private/
-
-# Prevent duplicate URLs (parameter)
-Disallow: /*?*
 
 # Allow important assets
 Allow: /assets/
@@ -23,5 +20,4 @@ Allow: /*.svg$
 Allow: /*.woff$
 Allow: /*.woff2$
 
-# Sitemap
 Sitemap: https://infocanopydepo.com/sitemap.xml
