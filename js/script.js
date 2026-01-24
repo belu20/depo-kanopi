@@ -19,6 +19,13 @@ document.addEventListener("click", function (e) {
   }
 });
 
+// tutup navbar saat klik menu
+document.querySelectorAll(".navbar-nav a").forEach((link) => {
+  link.addEventListener("click", () => {
+    navBar.classList.remove("active");
+  });
+});
+
 // Data foto (ganti dengan URL foto Anda)
 const photos = [
   { src: "assets/images/kanopi-kain-1.jpeg", caption: "Kanopi Kain" },
