@@ -136,30 +136,29 @@ body {
   z-index: 1;
 }
 .hero .content {
+  font-family: "Roboto Slab", serif;
   position: relative;
   z-index: 2;
-  text-align: center;
   max-width: 60rem;
   padding: 1.5rem 7%;
 }
 
 .hero .content h1 {
-  font-family: "Roboto Slab", serif;
   font-weight: 800;
   font-size: 5em;
   color: var(--primary);
   text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+  margin-bottom: 0;
+  text-align: start;
 }
 .hero .content h1 span {
-  font-family: "Roboto Slab", serif;
   color: #202c9c;
 }
 
-.hero .content p {
-  font-size: 1.6rem;
-  margin-top: 1rem;
-  line-height: 1.4;
-  font-weight: 100;
+.hero .content h2,
+.hero .content h3 {
+  font-size: 1.3rem;
+  font-weight: 50;
   color: #ffffff;
 }
 
@@ -813,32 +812,6 @@ html {
     font-size: 1.3rem;
   }
 }
-
-/* Responsive Design */
-/* @media screen and (max-width: 968px) {
-  .kontak .row {
-    flex-direction: column;
-    padding: 2rem;
-    gap: 2rem;
-  }
-
-  .kontak .row .alamat {
-    padding: 1.5rem 0;
-  }
-
-  .kontak .row .alamat h2 {
-    font-size: 2rem;
-  }
-
-  .kontak .row .alamat h3 {
-    font-size: 1.5rem;
-  }
-
-  .kontak .row .map {
-    height: 350px;
-  }
-} */
-
 @media screen and (max-width: 576px) {
   .kontak .row .map {
     height: 300px;
