@@ -201,7 +201,7 @@ body {
 .kontak,
 .keunggulan,
 .tanya {
-  padding: 8rem 7% 1.4rem;
+  padding: 9rem 7% 1.4rem;
 }
 
 .about h2,
@@ -759,6 +759,13 @@ html {
   }
   .navbar .navbar-nav a:hover::after {
     transform: scaleX(0.7);
+  }
+  .about,
+  .harga,
+  .kontak,
+  .keunggulan,
+  .tanya {
+    padding: 9rem 7% 1.4rem;
   }
 
   .about .row {
